@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_Spacewar.mk
+    $(LOCAL_DIR)/bliss_Spacewar.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_Spacewar-eng \
-    pixys_Spacewar-userdebug \
-    pixys_Spacewar-user
+    bliss_Spacewar-eng \
+    bliss_Spacewar-userdebug \
+    bliss_Spacewar-user
