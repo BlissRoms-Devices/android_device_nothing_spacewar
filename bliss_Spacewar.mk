@@ -34,6 +34,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_OEM_CAMERA := true
 BLISS_BUILDTYPE := OFFICIAL
 
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_Spacewar
 PRODUCT_DEVICE := Spacewar
@@ -43,6 +44,9 @@ PRODUCT_MANUFACTURER := Nothing
 PRODUCT_SYSTEM_NAME := Spacewar
 PRODUCT_SYSTEM_DEVICE := Spacewar
 PRODUCT_CHARACTERISTICS := nosdcard
+
+# UDFPS Animations
+EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
