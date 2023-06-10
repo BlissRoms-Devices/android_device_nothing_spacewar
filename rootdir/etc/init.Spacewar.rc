@@ -113,13 +113,6 @@ on post-fs-data
     mkdir /data/vendor/nfc 0777 nfc nfc
     mkdir /data/vendor/nfc/param 0777 nfc nfc
 
-on property:service.bootanim.exit=0
-    # Boot led effect placeholder
-   write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 1
-
-on property:service.bootanim.exit=1
-    # Boot led effect placeholder
-    write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 0
     # Wireless Charging
     chown system system /sys/class/qcom-battery/wireless_boost_en
     chmod 0666 /sys/class/qcom-battery/wireless_boost_en
@@ -127,3 +120,11 @@ on property:service.bootanim.exit=1
     chmod 0666 /sys/class/qcom-battery/wls_reverse_status
     chown system system /sys/class/qcom-battery/charge_power
     chown system system /sys/class/qcom-battery/wls_st38_en
+
+on property:service.bootanim.exit=0
+    # Boot led effect placeholder
+   write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 1
+
+on property:service.bootanim.exit=1
+    # Boot led effect placeholder
+    write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 0
