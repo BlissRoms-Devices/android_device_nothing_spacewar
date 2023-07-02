@@ -22,5 +22,11 @@
     "repository": "PixysOS/vendor_nothing_camera",
     "target_path": "vendor/nothing/camera",
     "remote": "gitlab"
+  },
+    {
+    "branch": "thirteen",
+    "repository": "PixysOS/vendor_pixys-prebuilts",
+    "target_path": "vendor/bliss-prebuilts",
+    "remote": "gitlab"
   }
 ]
