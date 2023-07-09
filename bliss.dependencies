@@ -25,7 +25,7 @@
   },
     {
     "branch": "thirteen",
-    "repository": "PixysOS/vendor_pixys-prebuilts",
+    "repository": "AyanC1/vendor_pixys-prebuilts",
     "target_path": "vendor/bliss-prebuilts",
     "remote": "gitlab"
   }
