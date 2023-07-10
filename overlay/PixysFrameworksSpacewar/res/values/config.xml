@@ -25,4 +25,7 @@
 
     <!-- Whether to use old mobile type icons as default -->
     <bool name="config_useOldMobileIcons">true</bool>
+
+    <!-- Display color inversion availability -->
+    <bool name="config_displayInversionAvailable">false</bool>
 </resources>
