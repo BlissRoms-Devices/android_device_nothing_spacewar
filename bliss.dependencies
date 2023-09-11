@@ -8,7 +8,7 @@
   {
     "remote": "github",
     "branch": "lineage-20",
-    "repository": "nothing-sm7325/android_kernel_nothing_sm7325",
+    "repository": "nothing-sm7325/kernel_nothing_sm7325",
     "target_path": "kernel/nothing/sm7325"
   },
   {
