@@ -1,13 +1,13 @@
 [
   {
     "remote": "github",
-    "branch": "thirteen",
+    "branch": "fourteen",
     "repository": "PixysOS-Devices/vendor_nothing_Spacewar",
     "target_path": "vendor/nothing/Spacewar"
   },
   {
     "remote": "github",
-    "branch": "thirteen",
+    "branch": "fourteen",
     "repository": "PixysOS-Devices/kernel_nothing_sm7325",
     "target_path": "kernel/nothing/sm7325"
   },
