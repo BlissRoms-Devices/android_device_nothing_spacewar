@@ -33,7 +33,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_OEM_CAMERA := true
 BLISS_BUILDTYPE := OFFICIAL
-
+TARGET_STOCK_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_Spacewar
