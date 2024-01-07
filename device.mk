@@ -17,7 +17,7 @@ $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # NT Camera
-#$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
+$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
