@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "branch": "fourteen-wip",
+    "branch": "fourteen",
     "repository": "PixysOS-Devices/kernel_nothing_sm7325",
     "target_path": "kernel/nothing/sm7325"
   },
@@ -18,7 +18,7 @@
     "target_path": "packages/apps/PixysGlyph"
   },
   {
-    "branch": "thirteen",
+    "branch": "fourteen",
     "repository": "PixysOS/vendor_nothing_camera",
     "target_path": "vendor/nothing/camera",
     "remote": "gitlab"
