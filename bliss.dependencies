@@ -19,7 +19,7 @@
   },
   {
     "branch": "fourteen",
-    "repository": "PixysOS/vendor_nothing_camera",
+    "repository": "PixysOS-fourteen/vendor_nothing_camera",
     "target_path": "vendor/nothing/camera",
     "remote": "gitlab"
   },
@@ -27,6 +27,12 @@
     "branch": "thirteen",
     "repository": "AyanC1/vendor_pixys-prebuilts",
     "target_path": "vendor/bliss-prebuilts",
+    "remote": "gitlab"
+  },
+    {
+    "branch": "fourteen",
+    "repository": "PixysOS-fourteen/vendor_nothing_Spacewar_radio",
+    "target_path": "vendor/nothing/Spacewar/radio",
     "remote": "gitlab"
   }
 ]
