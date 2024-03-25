@@ -35,6 +35,7 @@ TARGET_INCLUDE_OEM_CAMERA := true
 BLISS_BUILDTYPE := OFFICIAL
 TARGET_STOCK_GAPPS := true
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_Spacewar
