@@ -1,24 +1,24 @@
 [
   {
     "remote": "github",
-    "branch": "fourteen",
+    "branch": "fourteen-v2",
     "repository": "PixysOS-Devices/vendor_nothing_Spacewar",
     "target_path": "vendor/nothing/Spacewar"
   },
   {
     "remote": "github",
-    "branch": "fourteen",
+    "branch": "fourteen-v2",
     "repository": "PixysOS-Devices/kernel_nothing_sm7325",
     "target_path": "kernel/nothing/sm7325"
   },
   {
     "remote": "github",
-    "branch": "thirteen",
+    "branch": "fourteen-v2",
     "repository": "PixysOS-Devices/packages_apps_PixysGlyph",
     "target_path": "packages/apps/PixysGlyph"
   },
   {
-    "branch": "fourteen",
+    "branch": "fourteen-v2",
     "repository": "PixysOS-fourteen/vendor_nothing_camera",
     "target_path": "vendor/nothing/camera",
     "remote": "gitlab"
