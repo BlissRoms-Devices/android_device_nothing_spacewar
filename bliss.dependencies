@@ -28,11 +28,5 @@
     "repository": "PixysOS-fourteen/vendor_pixys-prebuilts",
     "target_path": "vendor/bliss-prebuilts",
     "remote": "gitlab"
-  },
-    {
-    "branch": "fourteen",
-    "repository": "PixysOS-fourteen/vendor_nothing_Spacewar_radio",
-    "target_path": "vendor/nothing/Spacewar/radio",
-    "remote": "gitlab"
   }
 ]
