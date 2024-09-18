@@ -65,6 +65,10 @@ function blob_fixup() {
         vendor/lib64/hw/fingerprint.lahaina.so)
             "${PATCHELF}" --set-soname "fingerprint.lahaina.so" "${2}"
             ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "gettid: 1" "${2}" || echo "gettid: 1" >> "${2}"
+            ;;
         vendor/lib64/libgf_hal.so)
             sed -i "s|ro.boot.flash.locked|ro.bootloader.locked|g" "${2}"
             ;;
